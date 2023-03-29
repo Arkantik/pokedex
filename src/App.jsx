@@ -31,8 +31,6 @@ function App(){
   ];
 
   const [pokemonIndex, setpokemonIndex] = useState(0);
-  const [showButton, setShowButton] = useState(true);
-  const [noshowButton, setNoShowButton] = useState(false);
 
   const handleClick = () => {
     setpokemonIndex(pokemonIndex - 1)
