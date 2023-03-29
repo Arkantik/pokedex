@@ -14,4 +14,3 @@ function Navbar({name, pokemonIndex, setpokemonIndex}) {
 // };
 
 export default Navbar;
-
