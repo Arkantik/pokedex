@@ -34,11 +34,11 @@ function App(){
   const [pokemonIndex, setpokemonIndex] = useState(0);
 
   const handleClick = () => {
-    setIndex(index - 1);
+    setpokemonIndex(pokemonIndex - 1)
   };
 
   const handleClick1 = () => {
-    setIndex(index + 1);
+    setpokemonIndex(pokemonIndex + 1)
   };
 
   return (
